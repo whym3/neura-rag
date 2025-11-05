@@ -75,7 +75,7 @@ export default {
       nicknamePlaceholder: 'Please input nickname',
       register: 'Create an account',
       continue: 'Continue',
-      title: 'A leading RAG engine for LLM context',
+      title: 'Enterprise Knowledge Management',
       start: "Let's get started",
       description:
         'Sign up for free to explore top RAG technology. Create knowledge bases and AIs to empower your business.',
