@@ -4,19 +4,19 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: #f8f8f8;
     --foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --popover: 0 0% 100%;
+    --popover: #f8f8f8;
     --popover-foreground: 222.2 47.4% 11.2%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
 
-    --card: 0 0% 100%;
+    --card: #f8f8f8;
     --card-foreground: 222.2 47.4% 11.2%;
 
     --primary: 222.2 47.4% 11.2%;
@@ -40,7 +40,7 @@
     --colors-background-inverse-standard: rgba(29, 26, 44, 0.1);
     --colors-background-inverse-strong: rgba(11, 10, 18, 0.8);
     --colors-background-inverse-weak: rgba(17, 16, 23, 0.1);
-    --colors-background-neutral-standard: white;
+    --colors-background-neutral-standard: #f8f8f8;
     --colors-background-neutral-strong: rgba(226, 223, 246, 1);
 
     --button-blue-text: rgb(22, 119, 255);
@@ -88,16 +88,16 @@
 
     --metallic: #46464a;
 
-    --bg-title: #f6f6f7;
+    --bg-title: #f0f0f0;
     /* design colors */
 
-    --bg-base: #ffffff;
+    --bg-base: #f8f8f8;
     /* card color , dividing line */
     --bg-card: rgba(0, 0, 0, 0.05);
-    --bg-component: #ffffff;
+    --bg-component: #f8f8f8;
     --bg-input: rgba(255, 255, 255, 0);
-    --bg-canvas: 246 246 247;
-    --bg-list: 246 246 247;
+    --bg-canvas: 248 248 248;
+    --bg-list: 248 248 248;
     /* Button ,Body text, Input completed text */
     --text-primary: #161618;
     --text-secondary: #75787a;
@@ -129,7 +129,7 @@
   }
 
   .dark {
-    --background: rgba(11, 10, 18, 1);
+    --background: #000000;
     --foreground: 213 31% 91%;
 
     --muted: 223 47% 11%;
@@ -138,13 +138,13 @@
     --accent: 216 34% 17%;
     --accent-foreground: 210 40% 98%;
 
-    --popover: 224 71% 4%;
+    --popover: #000000;
     --popover-foreground: 215 20.2% 65.1%;
 
     --border: 216 34% 17%;
     --input: 216 34% 17%;
 
-    --card: 224 71% 4%;
+    --card: #000000;
     --card-foreground: 213 31% 91%;
 
     --primary: 210 40% 98%;
@@ -180,9 +180,9 @@
 
     --colors-background-inverse-standard: rgba(230, 227, 246, 0.15);
     --colors-background-inverse-strong: rgba(255, 255, 255, 0.8);
-    --colors-background-neutral-standard: rgba(11, 10, 18, 1);
-    --colors-background-neutral-strong: rgba(29, 26, 44, 1);
-    --colors-background-neutral-weak: rgba(17, 16, 23, 1);
+    --colors-background-neutral-standard: #000000;
+    --colors-background-neutral-strong: #111111;
+    --colors-background-neutral-weak: #000000;
 
     --colors-outline-sentiment-primary: rgba(146, 118, 255, 1);
     --colors-outline-neutral-strong: rgba(255, 255, 255, 0.15);
@@ -209,7 +209,7 @@
     --text-title: rgba(255, 255, 255, 1);
     --text-sub-title: rgba(91, 93, 106, 1);
     --text-sub-title-invert: rgba(151, 154, 171, 1);
-    --background-header-bar: rgba(11, 11, 12, 1);
+    --background-header-bar: #000000;
 
     --text-title-invert: rgba(22, 22, 24, 1);
 
@@ -222,15 +222,15 @@
 
     --metallic: #fafafa;
 
-    --bg-title: #38383a;
+    --bg-title: #000000;
     /* design colors */
 
-    --bg-base: #161618;
+    --bg-base: #000000;
     --bg-card: rgba(255, 255, 255, 0.05);
-    --bg-component: #202025;
+    --bg-component: #000000;
     --bg-input: rgba(255, 255, 255, 0.05);
     --bg-canvas: 0 0 0;
-    --bg-list: 56 56 58;
+    --bg-list: 0 0 0;
     --text-primary: #f6f6f7;
     --text-secondary: #b2b5b7;
     --text-disabled: #75787a;
